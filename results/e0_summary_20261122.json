@@ -1,0 +1,15 @@
+{
+  "experiment": "E0 synthetic exact planning / not LLM",
+  "seed": 20261122,
+  "n_tasks": 251,
+  "tests_passed": 7,
+  "mean_greedy": 0.38662782025279985,
+  "mean_one_step": 0.6013639718729467,
+  "mean_exact": 0.608318723013852,
+  "mean_gain_over_greedy": 0.22169090276105224,
+  "mean_gain_over_one_step": 0.006954751140905447,
+  "strict_gain_greedy_count": 201,
+  "strict_gain_one_step_count": 66,
+  "max_planner_eval_abs_error": 0,
+  "raw_rows_generation": "python -m research.run_e0"
+}
